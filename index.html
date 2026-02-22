@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Mohit Danu</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile photo of Mohit Danu">
+    <p>I am a web development student passionate about building websites and learning AI technologies.</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Football Analysis Website</h3>
+        <p>A mini project to analyze football match statistics.</p>
+        <button onclick="showMessage()">View Details</button>
+    </div>
+
+    <div class="card">
+        <h3>Banking Management System</h3>
+        <p>A C programming project using data structures.</p>
+        <button onclick="showMessage()">View Details</button>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <button onclick="toggleContact()">Show Email</button>
+    <p id="email" style="display:none;">mohit@example.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Mohit Danu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
